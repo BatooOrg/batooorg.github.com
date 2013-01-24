@@ -1,0 +1,105 @@
+@import url("http://fonts.googleapis.com/css?family=Carrois+Gothic");
+@import url("flexslider.css");
+
+/* Override some defaults */
+html,body {
+  background-color: #fff;
+  font-family: 'Carrois Gothic', sans-serif;
+}
+
+#logo {
+  height: 50px;
+  width: 50px;
+}
+
+/* Top NavBar ========== */
+.topnav {
+  padding-top: 10px;
+  margin-bottom: -5px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #111;
+}
+
+.topnav li {
+  display: inline-block;
+  float: left;
+  margin-left: 2px;
+}
+
+.topnav li a {
+  color: #999;
+}
+
+/* NavBar ========== */
+.navbar {
+  margin-bottom: 0;
+  font-size: 22px;
+  border-bottom: 1px solid #000;
+}
+
+.navbar-fixed-top .navbar-inner {
+  border-radius: 0 0 0 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-inner {
+  background-color: #222;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+
+.navbar .brand {
+  float: left;
+  display: block;
+  padding: 8px 20px 12px;
+  margin-left: -20px;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1;
+  color: #ddd;
+}
+
+.navbar-inner li {
+  font-variant: small-caps;
+}
+
+.navbar .nav>li>a {
+  float: none;
+  padding: 10px 10px 11px;
+  line-height: 19px;
+  color: #ddd;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.navbar ul {
+  padding-top: 34px;
+}
+
+.navbar .nav .active>a,.navbar .nav .active>a:hover {
+  color: #ddd;
+  text-decoration: none;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#header header {
+  background: url("../img/bg/brushed_alu.png") repeat scroll #f4f4f4;
+}
+
+.container>footer {
+  margin-top: 20px;
+}
+
+.container>footer p {
+  text-align: center; /* center align it with the container */
+}
+
+.content {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+}
